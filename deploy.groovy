@@ -15,7 +15,7 @@ job('Deploy/Build') {
     scm {
         git {
             remote {
-                url('https://github.com/Diabol/delivery-pipeline-plugin')
+                url('https://github.com/denizka1991/test-piplime')
             }
         }
     }
@@ -44,7 +44,7 @@ job('Deploy/Sonar') {
     scm {
         git {
             remote {
-                url('https://github.com/Diabol/delivery-pipeline-plugin')
+                url('https://github.com/denizka1991/test-piplime')
             }
         }
     }
